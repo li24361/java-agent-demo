@@ -1,5 +1,7 @@
 # java-agent-demo
 
+一个字节码增强的小demo
+
 运行方法:
 ### premain jvm 参数形式启动，运行此方法
 启动参数需要添加 -javaagent:/Users/lizhihao/code/java-agent-demo/target/java-agent-demo-1.0-SNAPSHOT-jar-with-dependencies.jar
@@ -14,3 +16,9 @@ jps -l
 修改com.lzh.AttachAgent里面进行id为1427(举例,实际会不同)
 
 启动 com.lzh.AttachAgent#main
+
+
+### 参考:
+
+* [字节码增强技术探索](https://tech.meituan.com/2019/09/05/java-bytecode-enhancement.html)
+* [Java 调式、热部署、JVM 背后的支持者 Java Agent](https://www.zhihu.com/search?q=Instrument%20java&utm_content=search_history&type=content)
