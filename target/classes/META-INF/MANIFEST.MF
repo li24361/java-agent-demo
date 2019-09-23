@@ -1,6 +1,0 @@
-Manifest-Version: 1.0
-Created-By: lizhihao
-Agent-Class: com.lzh.MyCustomAgent
-Can-Redefine-Classes: true
-Can-Retransform-Classes: true
-Premain-Class: com.lzh.MyCustomAgent
