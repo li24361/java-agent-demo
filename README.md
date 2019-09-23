@@ -2,9 +2,15 @@
 
 一个字节码增强的小demo
 
+## 使用方法
+首先打包
+
+> mvn assembly:assembly
+target/下面会生成java-agent-demo-1.0-SNAPSHOT-jar-with-dependencies.jar
+
 运行方法:
 ### premain jvm 参数形式启动，运行此方法
-启动参数需要添加 -javaagent:/Users/lizhihao/code/java-agent-demo/target/java-agent-demo-1.0-SNAPSHOT-jar-with-dependencies.jar
+启动参数需要添加 -javaagent:{你的路径}/java-agent-demo-1.0-SNAPSHOT-jar-with-dependencies.jar
 运行启动com.lzh.RunJvm#main
 
 ### agentmain 动态 attach 方式启动，运行此方法
