@@ -1,0 +1,5 @@
+# Created by .ignore support plugin (hsz.mobi)
+/java-agent-demo.iml
+/target/
+src/test/
+/.idea/
